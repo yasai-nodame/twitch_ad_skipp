@@ -1,3 +1,6 @@
+const target = document.querySelector('.App');
+console.log('target');
+console.log(target);
 
 const observer = new MutationObserver(mutations => {
     //変化が発生したときの処理
